@@ -13,6 +13,7 @@ While emergency vehicles speed up to save lives, they put themselves in a danger
 
 ### Computing capabilities
 *Raspberry Pi*. A raspberry pi is connected to wifi, it receive the data from camera and sound detector and send the information to the cloud. 
+
 *Cloud*. The cloud process the infromation recived from the raspberry pi. The sound and image information is processed and the cloud generate instructions to the rasberry pi accordingly. 
 
 ### Actuator
