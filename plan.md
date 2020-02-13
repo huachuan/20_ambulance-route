@@ -8,6 +8,7 @@ While emergency vehicles speed up to save lives, they put themselves in a danger
 
 ### Sensor
 *Camera*. A camera is to detect of motion of the emergency vehicles.
+
 *Sound detector*. A sound detector is able to perform detection of siren sounds. 
 
 ### Computing capabilities
