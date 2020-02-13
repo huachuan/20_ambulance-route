@@ -24,9 +24,10 @@ The camera, sound detector and traffic lights are conncected to the raspberry pi
 
 ### Interfaces
 
-*OpenCV*
-Image processing.
+*OpenCV* for image processing.
+
 *Siren detection API*
+
 *Cloud connection API*
 
 
