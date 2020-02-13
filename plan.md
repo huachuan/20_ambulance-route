@@ -22,12 +22,12 @@ While emergency vehicles speed up to save lives, they put themselves in a danger
 ### Connections
 The camera, sound detector and traffic lights are conncected to the raspberry pi. A raspberry pi is connected to the wifi and cloud.
 
-## Interfaces
+### Interfaces
 
-### OpenCV
+*OpenCV*
 Image processing.
-### Siren detection API
-### Cloud connection API 
+*Siren detection API*
+*Cloud connection API*
 
 
 |          | Timeline                                                    |
