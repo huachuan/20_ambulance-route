@@ -2,7 +2,7 @@
 Huachuan Wang, Cuidi Wei, Andrew Nguyen
 
 ## Brief project description
-While emergency vehicles speed up to save lives, they put themselves in a dangerous condition. We plan to develop a smart traffic light system to guarantee the safety of the emergency vehicles. When emergency vehicles will pass a crossroad, the sensors of traffic light will know and send the message to cloud so that cloud will control the traffic lights in order to let emergency vehicles to pass the traffic light in higher speed.
+While emergency vehicles speed up to save lives, they put themselves in a dangerous condition. We plan to develop a smart traffic light system to guarantee the safety of the emergency vehicles. When emergency vehicles pass a crossroad, the sensors of traffic light know and send the message to the cloud so that the cloud controls the traffic lights to let emergency vehicles pass the traffic light at a higher speed.
 
 ## Components breakdown
 
