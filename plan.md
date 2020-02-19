@@ -24,11 +24,13 @@ The camera, sound detector and traffic lights are conncected to the raspberry pi
 
 ### Interfaces
 
+
 *Sound Detection*
 Monitor the ambulance's sound and notify the camera to detect whether an ambulance is in the road.
 
 *Image Processing*
 Check if an ambulance is in a picture so that it will know whether an ambulance is in the current road. In this module, Tensorflow is used and the helpful code is in the code directory.
+
 
 *Siren detection API*
 
