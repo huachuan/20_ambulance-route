@@ -12,12 +12,15 @@ While emergency vehicles speed up to save lives, they put themselves in a danger
 *Sound detector*. A sound detector is able to perform detection of siren sounds. 
 
 ### Computing capabilities
-*Raspberry Pi*. A raspberry pi is connected to wifi, it receives the data from camera and sound detector and sends the information to the cloud. 
+*Raspberry Pi*. 
+A raspberry pi is connected to wifi, it receives the data from camera and sound detector and sends the information to the cloud. 
 
-*Cloud*. The cloud processes the information received from the raspberry pi. The sound and image information is processed and the cloud generates instructions to the rasberry pi accordingly. 
+*Cloud*. 
+The cloud processes the information received from the raspberry pi. The sound and image information is processed and the cloud generates instructions to the rasberry pi accordingly. 
 
 ### Actuator
-*Traffic lights*. The cloud sends instructions to raspberry pi. Raspberry pi controls the traffic light depending on the cloud instructions. The traffic light can be turned on, off or flashing.
+*Traffic lights*. 
+The cloud sends instructions to raspberry pi. Raspberry pi controls the traffic light depending on the cloud instructions. The traffic light can be turned on, off or flashing.
 
 ### Connections
 The camera, sound detector and traffic lights are conncected to the raspberry pi. A raspberry pi is connected to the wifi and cloud.
