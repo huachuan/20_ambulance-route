@@ -7,16 +7,21 @@ While emergency vehicles speed up to save lives, they put themselves in a danger
 ## Components breakdown
 
 ### Sensor
-*Camera*. A camera is to detect the motion of the emergency vehicles.
+*Camera*. 
+A camera is to detect the motion of the emergency vehicles.
 
-*Sound detector*. A sound detector is able to perform detection of siren sounds. 
+*Sound detector*. 
+A sound detector is able to perform detection of siren sounds. 
 
 ### Computing capabilities
 *Raspberry Pi*. 
 A raspberry pi is connected to wifi, it receives the data from camera and sound detector and sends the information to the cloud. 
 
 *Cloud*. 
-The cloud processes the information received from the raspberry pi. The sound and image information is processed and the cloud generates instructions to the rasberry pi accordingly. 
+The cloud processes the data received from the raspberry pi. The sound and image information is processed and the cloud generates instructions to the rasberry pi accordingly. 
+
+*Broker*. 
+We use a broker to collect all of data received from cameras and sound sensors. By using broker, it's convenient for the cloud to control traffic lights at the same time.
 
 ### Actuator
 *Traffic lights*. 
