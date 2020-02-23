@@ -51,6 +51,20 @@ Security often focusses on the very interesting vulnerabilities and exploits, bu
 
 DDoS attacks will crash the cloud to prevent the cloud from working regularly. Therefore, it is crucial to prevent DDoS attacks for the cloud to make sure the traffic lights can work. To achieve this, setting up specific rules to filter out illegal attacks is a necessary step.
 
+<p align="center">
+  <img src="doc/connection_model.png">
+  Figure 1. Device connection model. Four raspberry pis each connected with a camera, a sound detector and a traffic light. Pi process the image and sound detection. Pi then send singles to the cloud. Clound send instruction back to Pi to control the traffic light.
+</p>
+
+<p align="center">
+  <img src="doc/camera_position_facing.png">
+  Figure 2. Demo setup. Each camera detect the emergency vehicle in one direction. 
+</p>
+<p align="center">
+  <img src="doc/sequence_diagram.png">
+  Figure 3. Sequence diagram. Flashing mode is on when the sound detector detects the siren, the corresponding traffic lights will turn yellow and flashing. Emergency mode is on when both sound and image of the emergency vehicle are detected, the corresponding traffic lights will turn green to let the emergency vehicle to go through, other traffic lights will turn red.
+</p>
+
 
 |          | Timeline                                                    |
 |----------|-------------------------------------------------------------|
