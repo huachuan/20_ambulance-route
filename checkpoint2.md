@@ -33,7 +33,7 @@
 
 <p align="center">
   
-  <img width="600" src="doc/sound_flash.gif">
+  <img height="600" src="doc/sound_flash.gif">
   
   Figure 5. A simple test of the flashing mode. When the sound generated (e.g. a board beats the sensor), the sensor detects the sound and let the pi turn on the yellow light and blink for 5 seconds. The pi will trun on regular mode for traffic light after yellow light finish blinking.
 </p>
