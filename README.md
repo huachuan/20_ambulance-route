@@ -1,12 +1,12 @@
 # Smart traffic light
 ## [Check our Youtube demo video](https://youtu.be/kPmq3VhWfX8)
-Using Raspberry Pis, sound sensors and cameras to control the traffic lights. This project aims to secure the emergency vehicles. When detecting the siren and image of the emergency vehicle, green light will turn on for the emergency vehicles.
+While emergency vehicles speed up to save lives, they put themselves in a dangerous condition. We plan to develop a smart traffic light system to guarantee the safety of the emergency vehicles. When emergency vehicles pass a crossroad, the sensors of traffic light know and send the message to the cloud so that the cloud controls the traffic lights to let emergency vehicles pass the traffic light at a higher speed.
 
 <p align="center">
   
   <img width="400" src="doc/camera_position_facing.png"> <img width="400" src="doc/top_view.JPG">
   
-  Figure 1. Setup. Each camera detect the emergency vehicle in one direction. 
+  Setup. Each camera detect the emergency vehicle in one direction. 
 </p>
   
 ## Hardware Requirements
@@ -16,7 +16,7 @@ Using Raspberry Pis, sound sensors and cameras to control the traffic lights. Th
 - **Sound detectors**
 - **AC Police car**
 
-## Setup
+## Installation and setup
 - **Rename Raspberry Pis**: Rename the Raspberry Pis according to the camera facing, e.g. North facing pi's hostname is pi@north. 
 - **Set static IP**: [Click here for details](https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/)
 - **Traffic light**: [Installation and coding](https://projects.raspberrypi.org/en/projects/traffic-lights-python)
@@ -30,6 +30,11 @@ Use a laptop as the server to communicate with the Pis (Python code). On the ser
 - **Regular Mode**: Normal traffic light, each color will last 5 seconds. Lights in north & south direction are orthogonal to west and east. 
 - **Flashing Mode**: Sound detector is triggered. Amber lights in all directions are turned on and blinking for 10 seconds.
 - **Emergency Mode**: Both sound detector and camera is triggered. When Flashing Mode is on, if the camera detects the objects within 10 seconds, the Emergency mode will be turned on. The traffic light in the direction of that moving emergency vehicle will trun green, the orthogonal direction will turn red for 10 seconds.
+<p align="center">
+  <img height="250" src="doc/connection_model.png"> <img width="300" src="doc/sequence_diagram.png">
+  
+Connection and sequence diagram. 
+</p>
 
 ## Demo
 
