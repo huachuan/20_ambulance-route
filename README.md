@@ -1,6 +1,6 @@
 # Smart traffic light
 ## [Check our Youtube demo video](https://youtu.be/kPmq3VhWfX8)
-While emergency vehicles speed up to save lives, they put themselves in a dangerous condition. We plan to develop a smart traffic light system to guarantee the safety of the emergency vehicles. When emergency vehicles pass a crossroad, the sensors of traffic light know and send the message to the cloud so that the cloud controls the traffic lights to let emergency vehicles pass the traffic light at a higher speed.
+While emergency vehicles speed up to save lives, they put themselves in a dangerous condition. We developed a smart traffic light system to guarantee the safety of the emergency vehicles. When emergency vehicles pass a crossroad, the sensors of traffic light know and send the message to the cloud so that the cloud controls the traffic lights to let emergency vehicles pass the traffic light at a higher speed.
 
 <p align="center">
   
